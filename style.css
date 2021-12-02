@@ -1,0 +1,404 @@
+nav div{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background-color: rgb(27, 58, 75);
+    color: whitesmoke;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+nav div{
+    display: inline-flex;
+    justify-content: space-between;
+    padding:0;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(27, 58, 75);
+    padding: 0.5em;
+    color: whitesmoke;
+    margin: 0;
+}
+
+footer h5{
+    margin: 0;
+}
+
+#navigation{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+li{
+    padding: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+#navigation .material-icons{
+    font-size: 35px;
+}
+
+#navigation li:hover{
+    background-color: rgb(11, 82, 91);
+}
+
+#homemain{
+    background-image: url('media/mainscreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 92.3vh;
+}
+
+#welcometext{
+    width: 100%;
+    position: fixed;
+    top: 20%;
+    font-size: 70px;
+    color:deepskyblue;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 20px black;
+    font-family:monospace, serif;
+    font-style: oblique;
+}
+
+#contactmain{
+    text-align: center;
+    background-image: url('media/contactphoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contactformdiv{
+    width: 50%;
+    margin-left: 25%;
+    color:lightgoldenrodyellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 92vh;
+}
+
+#contactformdiv input, textarea{
+    width: 80%;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+#contactformdiv textarea{
+    height: 100px;
+}
+
+#contactformdiv label{
+    font-size: 28px;
+    font-weight: 500;
+    text-shadow: 3px 3px 7px black;
+    margin-top: 0.7em;
+}
+
+#aboutmaindiv{
+    height: auto;
+}
+
+#aboutdiv1  div, #aboutdiv2 div{
+    width: 43%;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image{
+    width: 100%;
+}
+
+#menumain{
+    background-image: url('media/menumeinimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menumain form{
+    padding: 1.5em;
+    height: 30em;
+}
+
+#menusection div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3em;
+}
+
+#menurightdiv{
+    width: 23%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.7);
+    padding: 1em;
+}
+
+#menuleftdiv{
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#menuleftdiv div{
+    display: inline-block;
+    width: 40%;
+    color: whitesmoke;
+    padding-top: 4em;
+}
+
+#menuleftdiv h2{
+    font-family: 'Brush Script MT', 'Edwardian Script ITC';
+    font-size: 44px;
+}
+
+#menurightdiv h2{
+    font-family: 'Edwardian Script ITC', 'Brush Script MT';
+    font-size: 54px;
+}
+
+#signupmain{
+    background-image: url('media/loginbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#signupmain{
+    height: 92vh;
+}
+
+#formdiv{
+    width: 50%;
+    text-align: center;
+    color:whitesmoke;
+    margin-left: 25%;
+    padding-top: 18vh;
+}
+
+#formdiv form{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em;
+}
+
+#formdiv form label, input{
+    margin-bottom: 0.5em;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 30px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1225px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+    
+    header{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .brand-name{
+        font-size: 25px;
+        padding-top: 0.5em;
+    }
+
+    .toggle-button{
+        display: flex;
+        width: 40px;
+        height: 30px;
+        margin-right: 0.3em;
+        margin-top: 0.1em;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .navlinks{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    header{
+        position: relative;
+        width: 100%;
+        background-color: rgb(27, 58, 75);
+        color: whitesmoke;
+        text-align: center;
+    }
+    
+    nav{
+        display: block;
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
+
+    #navigation{
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    #navigation li{
+        padding: 1em;
+    }
+
+    .navlinks{
+        display: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav div{
+        padding:0;
+    }
+
+    header ul{
+        display: block;
+    }
+
+    .navlinks.active{
+        display: flex;
+        padding-right: 0;
+    }
+
+    #homemain{
+        height: 88vh;
+    }
+
+    #welcometext{
+        position: relative;
+    }
+
+    #contactformdiv{
+        width: 100%;
+        margin: 0;
+    }
+
+    #signupmain{
+        height: 89vh;
+    }
+    
+    #formdiv{
+        width: 100%;
+        text-align: center;
+        color:whitesmoke;
+        margin-left: 0%;
+        padding-top: 10vh;
+        height: 89vh;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #aboutdiv1  div, #aboutdiv2 div{
+        width: 100%;
+        margin: 0;
+        padding: 0.5em;
+        display: block;
+    }
+
+    #menumain{
+        background-image: url('media/menumeinimg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #menumain form{
+        padding: 0.5em;
+        height: auto;
+    }
+    
+    #menusection div{
+        display: block;
+        margin: 0;
+    }
+    
+    #menurightdiv{
+        width: 100%;
+        height: auto;
+        color: whitesmoke;
+        background-color: rgba(0,0,0,0.7);
+        padding: 1em;
+    }
+    
+    #menuleftdiv{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    
+    #menuleftdiv div{
+        display: block;
+        width: 100%;
+        color: whitesmoke;
+        padding-top: 1em;
+        text-align: center;
+    }
+    
+    #menuleftdiv h2{
+        font-family: 'Brush Script MT', 'Edwardian Script ITC';
+        font-size: 44px;
+    }
+    
+    #menurightdiv h2{
+        font-family: 'Edwardian Script ITC', 'Brush Script MT';
+        font-size: 54px;
+    }
+}
